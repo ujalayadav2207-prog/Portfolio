@@ -8,43 +8,47 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Ujala Yadav</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div id="particles-js"></div>
 
-    <div class="container">
-        <main>
-            <section id="about">
-                <h1>About Me</h1>
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-container">
+        <section id="home" class="page">
+            <div class="content">
+                <h1>Ujala Yadav</h1>
+                <p>Aspiring IT Student & Developer</p>
+            </div>
+        </section>
+
+        <section id="about" class="page">
+            <div class="content">
+                <h2>About Me</h2>
                 <p>I am Ujala Yadav, an aspiring B.Sc. IT student at Thakur Shyamnarayan Degree College, passionate about technology and constantly learning. I am currently honing my skills in various domains of Information Technology, eager to explore new technologies and apply them to real-world challenges. My journey in IT is driven by a desire to innovate and contribute to the digital world.</p>
-            </section>
+            </div>
+        </section>
 
-            <section id="education">
+        <section id="education" class="page">
+            <div class="content">
                 <h2>Education</h2>
                 <p><strong>B.Sc. in Information Technology</strong></p>
                 <p>Thakur Shyamnarayan Degree College, Mumbai</p>
                 <p>Expected Graduation: 2027</p>
-            </section>
+            </div>
+        </section>
 
-            <section id="projects">
-                <h2>My Projects</h2>
-                <p>I will be adding my projects here soon. Stay tuned!</p>
-            </section>
-
-            <section id="skills">
+        <section id="skills" class="page">
+            <div class="content">
                 <h2>My Skills</h2>
-                <ul>
+                <ul class="skills-list">
                     <li>HTML, CSS, JavaScript</li>
                     <li>Python</li>
                     <li>Java</li>
@@ -54,16 +58,25 @@
                     <li>Object-Oriented Programming</li>
                     <li>Database Management Systems</li>
                 </ul>
-            </section>
+            </div>
+        </section>
 
-            <section id="contact">
+        <section id="projects" class="page">
+            <div class="content">
+                <h2>My Projects</h2>
+                <p>I will be adding my projects here soon. Stay tuned!</p>
+            </div>
+        </section>
+
+        <section id="contact" class="page">
+            <div class="content">
                 <h2>Contact Me</h2>
-            </section>
-        </main>
+                <p>Feel free to reach out to me.</p>
+            </div>
+        </section>
     </div>
 
-    <footer>
-        <p>&copy; 2026 Ujala Yadav</p>
-    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
