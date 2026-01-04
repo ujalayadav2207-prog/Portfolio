@@ -67,9 +67,10 @@ body, html {
 }
 
 .content {
-    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
     background: rgba(0, 0, 0, 0.5);
-    padding: 40px;
+    padding: 60px 5%;
     border-radius: 12px;
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -110,11 +111,59 @@ p {
 }
 
 .skills-list li {
+
     background-color: #4caf50;
+
     color: #fff;
+
     padding: 10px 20px;
+
     margin: 5px;
+
     border-radius: 20px;
+
     font-size: 0.9em;
+
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+
+
+/* Contact Info */
+
+.contact-info p {
+
+    font-size: 1.2em;
+
+    margin: 10px 0;
+
+}
+
+
+
+.contact-info a {
+
+    color: #4caf50;
+
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+
+}
+
+
+
+.contact-info a:hover {
+
+    color: #fff;
+
+}
+
+
+
+.contact-info i {
+
+    margin-right: 10px;
+
 }
